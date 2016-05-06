@@ -1,5 +1,7 @@
 # How to create balcony irrigation system (for total noobs)
 
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2467.jpg)![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2462.jpg)
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2463.jpg)![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2466.jpg)![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2465.jpg)
 
 This tutorial was written by and is dedicated for absolute noobs - with no - or with really basic - electronic knowledge.
 
