@@ -52,12 +52,18 @@ GPIO.setwarnings(False)
 
 RELAY_PIN = 4
 
-def turn_on(duration = 60):
+def turn_on(duration = 5):
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(PUMP_RELAY_PIN, GPIO.OUT, initial=GPIO.LOW)
         time.sleep(duration)
         GPIO.cleanup([RELAY_PIN])
 
-turn_on(60)
+turn_on(5)
 ```
+
+## Step 4: Connect pump to the relay
+To do.
+
+## Step 5: Connect tubing and test everything
+To do.
 
