@@ -30,3 +30,34 @@ You will need:
 - **Rubber pipes** - for your water; depends on your needs, i bought 15 meters for 25 plants for around 5 EUR (20 PLN);
 
 Total price for all elements which will be used in this project is **75 EUR (307,45 PLN)**. HOWEVER: multimeter and Raspberry Pi are elements, which you can use in your future projects, not only once (i'm using my Raspberry in this project and as a HTTP server at the same time). Most of these elements are plug and play with no need for soldering, so if You already have Raspberry and multimeter, you're looking at **35 EUR (142,45 PLN)** in parts. Neat! 
+
+## Step 1: Connect female DC sockets to relay
+To do.
+
+## Step 2: Connect relay to Raspberry Pi
+To do.
+
+## Step 3: Turn on Raspberry and test relay
+To do.
+
+```python
+#!/usr/bin/python
+#
+#
+
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setwarnings(False)
+
+RELAY_PIN = 4
+
+def turn_on(duration = 60):
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setup(PUMP_RELAY_PIN, GPIO.OUT, initial=GPIO.LOW)
+        time.sleep(duration)
+        GPIO.cleanup([RELAY_PIN])
+
+turn_on(60)
+```
+
