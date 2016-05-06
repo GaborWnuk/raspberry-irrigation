@@ -7,7 +7,7 @@
 This tutorial was written by and is dedicated for absolute noobs - with no - or with really basic - electronic knowledge.
 
 ### WARNING
-This knowledge is "don't play with high voltage". We'll be using 12 volts @ 2 amps of current **AT MOST**. Keep in mind, 2 amps would be enough to kill you, but 12 volts is not enough to make it through your skin, so in our case it's pretty safe to handle (unless you'll try to touch both wires by your tongue).
+The knowledge is: don't play with high voltage. We'll be using 12 volts @ 2 amps of current **AT MOST**. Keep in mind, 2 amps would be enough to kill you, but 12 volts is not enough to make it through your skin, so in our case it's pretty safe to handle (unless you'll try to touch both wires by your tongue).
 
 First of all - and probably most important - you want to be as secure as possible and you will need a multimeter. Everytime you're not 100% sure if wires you want to touch are safe, use multimeter to verify what voltage and current you're dealing with.
 
