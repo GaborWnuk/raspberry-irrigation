@@ -32,7 +32,27 @@ You will need:
 Total price for all elements which will be used in this project is **75 EUR (307,45 PLN)**. HOWEVER: multimeter and Raspberry Pi are elements, which you can use in your future projects, not only once (i'm using my Raspberry in this project and as a HTTP server at the same time). Most of these elements are plug and play with no need for soldering, so if You already have Raspberry and multimeter, you're looking at **35 EUR (142,45 PLN)** in parts. Neat! 
 
 ## Step 1: Connect female DC sockets to relay
-To do.
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2529.jpg)!
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2530.jpg)!
+
+Raspberry Pi's maximum current is 5 volts @ few houndred miliamps which is not enough to power any real world pump. And even if it would be enough, you really shouldn't connect any powerful device directly to GPIO, as it isn't what it should do.
+
+That's why we're using a relay. In simple words, relay is pretty similar to your light switch - you're connecting and disconnecting a circuit (which may be either 12 volt or 230 volt) using your finger, but in this case - you're using 5 volts from your Raspberry to toggle the switch.
+
+I'm using 4 channel relay only because i didn't have anything smaller. 1 channel will be enough to finish this project.
+
+As you've bought two DC sockets (i've bought pretty neat fast connector sockets, so i don't even have to use a screwdriver), they're usually quite good described.
+
+Connect one socket's GROUND (-) to the other sockets GROUND (-) using some kind of a standard color cable. I'm always using blue or black color while connecting GROUND (-), just for my convenience.
+
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/relaywires.jpg?2)!
+
+Now use the red wire, and connect from first socket's "+" to the relay, and another red wire to connect the relay to the other socket's "+". One interesting fact - if you connect your sockets as above, relay will be disconnected as long as there is no electrical current applied.
+
+Voila!
+
+Why each channel provides you 3 connectors? Every relay gives you an option - circuit can be either connected or disconnected when there is no current applied to the relay - it's your decision what do you need. If you connect your cable to the bottom two connectors - circuit will be closed when there is no current. However, it's obviously not what we need in this project :)
+
 
 ## Step 2: Connect relay to Raspberry Pi
 To do.
