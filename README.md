@@ -32,8 +32,8 @@ You will need:
 Total price for all elements which will be used in this project is **75 EUR (307,45 PLN)**. HOWEVER: multimeter and Raspberry Pi are elements, which you can use in your future projects, not only once (i'm using my Raspberry in this project and as a HTTP server at the same time). Most of these elements are plug and play with no need for soldering, so if You already have Raspberry and multimeter, you're looking at **35 EUR (142,45 PLN)** in parts. Neat! 
 
 ## Step 1: Connect female DC sockets to relay
-![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2529.jpg)!
-![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2530.jpg)!
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2529.jpg)
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/IMG_2530.jpg)
 
 Raspberry Pi's maximum current is 5 volts @ few houndred miliamps which is not enough to power any real world pump. And even if it would be enough, you really shouldn't connect any powerful device directly to GPIO, as it isn't what it should do.
 
