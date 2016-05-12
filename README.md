@@ -45,7 +45,7 @@ As you've bought two DC sockets (i've bought pretty neat fast connector sockets,
 
 Connect one socket's GROUND (-) to the other sockets GROUND (-) using some kind of a standard color cable. I'm always using blue or black color while connecting GROUND (-), just for my convenience.
 
-![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/relaywires.jpg?2)!
+![Raspberry Irrigation Image](https://raw.githubusercontent.com/GaborWnuk/raspberry-irrigation/master/images/relaywires.jpg)
 
 Now use the red wire, and connect from first socket's "+" to the relay, and another red wire to connect the relay to the other socket's "+". One interesting fact - if you connect your sockets as above, relay will be disconnected as long as there is no electrical current applied.
 
